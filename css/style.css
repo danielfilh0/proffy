@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 60%; }
+
+html, body {
+  height: 100vh; }
+
+body {
+  background-color: #916BEA; }
+
+/*# sourceMappingURL=style.css.map */
