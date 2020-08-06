@@ -1,3 +1,10 @@
+@media screen and (min-width: 700px) {
+  #page-give-classes {
+    #container {
+      max-width: 100vw;
+    }
+  }
+}
 @media screen and (min-width: 1100px) {
   html, body {
     font-size: 62.5%;
@@ -36,67 +43,65 @@
       grid-area: texting;
       justify-self: end;
     }
-  }
-}
-@media screen and (min-width: 1100px) {
-  #page-study {
-    #container {
-      max-width: 100vw;
-    }
-    main {
-      padding: 32px 0;
-      max-width: 740px;
-      margin: 0 auto;
-    }
-  }
-  .page-header {
-    height: 340px;
-    .top-bar-container {
-      max-width: 1100px;
-    }
-    .header-content {
-      max-width: 740px;
-      margin: 0 auto;
-      flex: 1 1;
-      padding-bottom: 48px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      strong {
-        max-width: 350px;
+    #page-study {
+      #container {
+        max-width: 100vw;
+      }
+      main {
+        padding: 32px 0;
+        max-width: 740px;
+        margin: 0 auto;
       }
     }
-  }
-  .teacher-item {
-    header, footer {
-      padding: 32px;
-    }
-    footer {
-      & > p {
-        padding: 0 32px;
+    .page-header {
+      height: 340px;
+      .top-bar-container {
+        max-width: 1100px;
+      }
+      .header-content {
+        max-width: 740px;
+        margin: 0 auto;
+        flex: 1 1;
+        padding-bottom: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         strong {
-          display: initial;
-          margin-left: 16px;
+          max-width: 350px;
         }
-        button {
-          width: 245px;
-          font-size: 16px;
-          justify-content: center;
-          img {
-            margin-right: 16px;
+      }
+    }
+    .teacher-item {
+      header, footer {
+        padding: 32px;
+      }
+      footer {
+        & > p {
+          padding: 0 32px;
+          strong {
+            display: initial;
+            margin-left: 16px;
+          }
+          button {
+            width: 245px;
+            font-size: 16px;
+            justify-content: center;
+            img {
+              margin-right: 16px;
+            }
           }
         }
       }
     }
-  }
-  #search-teachers {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-    position: absolute;
-    bottom: -58px;
-    .select-block {
-      margin-bottom: 0;
+    #search-teachers {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      position: absolute;
+      bottom: -58px;
+      .select-block {
+        margin-bottom: 0;
+      }
     }
   }
 }

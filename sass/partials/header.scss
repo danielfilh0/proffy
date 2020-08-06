@@ -1,0 +1,42 @@
+@import 'reset';
+
+.page-header {
+  background-color: $color-primary;
+  display: flex;
+  flex-direction: column;
+  .top-bar-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.6rem;
+    img {
+      height: 1.6rem;
+    }
+    a {
+      height: 3.2rem;
+      transition: opacity 0.2s;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+  .header-content {
+    width: 90%;
+    margin: 3.2rem auto;
+    position: relative;
+    strong {
+      font: 700 3.6rem Archivo;
+      line-height: 4.2rem;
+      color: $color-title-in-primary;
+    }
+    p {
+      max-width: 30rem;
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      color: $color-text-in-primary;
+      margin-top: 1.6rem;
+    }
+  }
+}

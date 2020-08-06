@@ -35,7 +35,10 @@ body {
 body,
 input,
 button,
-textarea {
+textarea,
+label,
+legend,
+p {
   font-weight: 500;
   font-family: Poppins;
   font-size: 1.6rem;
