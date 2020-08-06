@@ -1,2 +1,2 @@
-# proffy
-Proffy - Plataforma de cursos online
+# Proffy - Plataforma de cursos online
+### Projeto desenvolvido na #nextlevelweek2 da RocketSeat
