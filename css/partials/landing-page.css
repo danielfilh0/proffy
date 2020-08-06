@@ -82,6 +82,7 @@ a {
 
 .total-connections {
   font-size: 1.2rem;
+  color: #D4C2FF;
   display: flex;
   align-items: center;
   justify-content: center; }

@@ -74,6 +74,7 @@
         font: 700 1.6rem Archivo;
         cursor: pointer;
         transition: 0.2s;
+        outline: none;
         &:hover {
           transform: translateY(-5px);
           color: $color-primary-dark;

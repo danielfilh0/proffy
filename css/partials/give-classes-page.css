@@ -95,7 +95,8 @@ a {
       color: #8257E5;
       font: 700 1.6rem Archivo;
       cursor: pointer;
-      transition: 0.2s; }
+      transition: 0.2s;
+      outline: none; }
       #page-give-classes fieldset legend button:hover {
         transform: translateY(-5px);
         color: #774DD6; }

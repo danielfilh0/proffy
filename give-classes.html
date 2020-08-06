@@ -8,6 +8,7 @@
   <meta name="theme-color" content="8257E5">
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/imports.css">
+  <script src="scripts/addField.js" defer></script>
 </head>
 
 <body id="page-give-classes">
@@ -50,7 +51,7 @@
           <div class="select-block">
             <label for="subject" required>Matéria</label>
             <select name="subject" id="subject" required>
-              <option value="">Selecione uma opção</option>
+              <option value="" hidden="">Selecione uma opção</option>
               <option value="1">Artes</option>
               <option value="1">Biologia</option>
               <option value="1">Ciências</option>
@@ -71,9 +72,9 @@
 
           </div> <!-- input-block -->
         </fieldset>
-        <fieldset>
+        <fieldset id="schedule-items">
           <legend>Horários disponíveis
-            <button id="add-time">+ Novo Horário</button>
+            <button type="button" id="add-time">+ Novo Horário</button>
           </legend>
           <div class="schedule-item">
             <div class="select-block">
@@ -103,7 +104,7 @@
         <p>
           <img src="img/icons/warning.svg" alt="Aviso importante">
           Importante! <br>
-          Preenche todos os dados
+          Preencha todos os dados
         </p>
         <button type="submit" form="create-class">Salvar cadastro</button>
       </footer>
